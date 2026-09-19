@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Env & secrets
+.env
+
+# Node
+node_modules/
+dist/
+
+# Data
+data/
+*.log
+
+# Build artifacts
+uv_sync.log
+pytest*.log
+uv_lock.log

@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "企业 RAG/Agent 平台 - 模块化、版本锁定、可一键复现的 AI 应用开发运行环境"
 requires-python = ">=3.11"
 dependencies = [
-    "fastapi>=0.115,<0.116",
+    "fastapi>=0.115,<0.142",
     "uvicorn[standard]>=0.34,<0.35",
     "pydantic>=2.10,<2.11",
     "pydantic-settings>=2.7,<2.8",
